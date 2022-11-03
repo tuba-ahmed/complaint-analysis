@@ -9,7 +9,7 @@
 - Tuba Ahmed: https://github.com/tuba-ahmed (014534429)
 
 ## Link to the project proposal document:
-![Project Proposal](./cmpe257_proposal.pdf)
+[Project Proposal](./cmpe257_proposal.pdf)
 
 ## Link for the dataset used:
 
