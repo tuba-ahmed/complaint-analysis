@@ -8,6 +8,9 @@
 - Ramkumar Sivakumar: https://github.com/ramsrk7
 - Tuba Ahmed: https://github.com/tuba-ahmed (014534429)
 
+## Link to the project proposal document:
+![Project Proposal](./cmpe257_proposal.pdf)
+
 ## Link for the dataset used:
 
 Dataset Link: https://www.consumerfinance.gov/data-research/consumer-complaints/
