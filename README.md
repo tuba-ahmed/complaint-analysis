@@ -1,6 +1,6 @@
 # Consumer Complaint Analysis and Classification using Natural Language Processing
 - Coursework project for CMPE 257.
-- A Text analysis On consumer complaints based on the 'Consumer Complaint Database' dataset. 
+- A Text analysis on consumer complaints based on the 'Consumer Complaint Database' dataset. 
 
 ## Contributors: 
 - Anshul Kumar: https://github.com/Anshul-Shandilya (016039894)
