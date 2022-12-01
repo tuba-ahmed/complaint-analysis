@@ -36,15 +36,19 @@ Initially, We started off with preprocessing the data, where we removed redundan
 
 After the initial preprocessing, we created a new data frame from the preprocessed complaint file. Upon initial inspection of the data, we discovered that there were 81 null values in the complaint narratives, which we had to drop. The remaining data frame consisted of 1112339 datapoints. Next, we encoded the products in numeric values. We then proceeded to instantiate the training and test sets. Thirdly, we used TF-IDF vectorizer to obtain the relevancy of words in the complaint narratives, as mentioned in this commit. Finally, we created our model using the Multinominal Naïve Bayes classifier and produced a classification report, which yielded a prediction accuracy of 82%.
 
+### SVM
 
+Before the training of SVM and Logistic Regression model, the training dataset was obtained after processing the 'narrative' column for the dataset. As a pre-processing technique, stopwords were initially removed from each entry, which included strings like 'xx/xx/xxxx', puncuations and numericals. This was done to ensure that there is no noise in the training data. Since SVM runs slow, especially for large datasets, 100,000 samples were randonly selected from the dataset. Then the training data was split into 80% train and 20% test for validation purposes. 
+
+To vectorize the text, tfidf was performed on the training and test set. Also for better performance for SVM Model, Singular Value Decomposition was performed on the training and test datasets, with 250 components (usually recommended for SVM). Since SVM only takes normalized values, the training and test dataset was scaled using StandardScaler. With this, SVC was trained with C=1.0 with probability estimates set to True.
+
+Validation was performed on the test set created earlier, and F1 scoring metric was used to determine how well the model performed. For the trining set, the SVM model obtained a score of 0.87099 on the validation set. 
 
 ### K-Nearest Neighbors
 To begin with the KNN implementation, there were some pre-processing steps that were needed to be done on the text data. We began by building a count vectorizer responsible for removing stop-words, cleaning and tokenizing the textual data. Next step in the process was to do a TF-IDF transformation. Before this, we cut down the data set to only components that we would be interested in – the product and complaint narratives.
 
 Once the pre-processing was done and the TF-IDF transformation was complete, we proceeded to encode the product categories into numerical values and build a KNNClassifier model on top of this. We used sklearn library’s implementation for the same. As a group we decided to limit the sample size to 100,000. We finished up the implementation by adding the classification report. To enhance performance, we tried implementing the model using the RAPIDS accelerator. While this showed considerable improvement in the processing time, we decided to limit the sample size to standardize across implementations and minimize the performance factor and varying machine resources.
 
-
-### Linear Regression
 
 # Comparisons
 
