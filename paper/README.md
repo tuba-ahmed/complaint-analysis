@@ -3,4 +3,4 @@
 
 [Summary](./paper.md)
 
-Note: The figures used in the report can be found in the respective files in [Code](tuba-ahmed/complaint-analysis/code/).
+Note: The figures used in the report can be found in the respective files in [Code](https://github.com/tuba-ahmed/complaint-analysis/blob/main/code/).
