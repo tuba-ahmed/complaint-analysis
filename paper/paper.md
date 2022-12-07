@@ -70,12 +70,9 @@ Once the pre-processing was done and the TF-IDF transformation was complete, we 
 
 The precision, recall, and F1 scores in table 4.1 are macro averages. The LSTM model had a better Recall, F1, and Accuracy score over the other models. KNN had a better precision score. Moreover, the time to train the LSTM model over ten epochs was around 10 minutes. Therefore, though SVM had the same accuracy as LSTM, the latter performed better with respect to Recall, F1, Accuracy, and Efficiency. But considering all the metrics, if we look at all of the models LSTM, apart from Precision, all the other metrics are relatively higher than the other models. So, with this, we selected the LSTM as the best-performing model for our classification problem.
 
-# Example Analysis
 
 # Conclusions
 
 In the end, we were able to build models that classify the complaints with an accuracy of 86% and help streamline the consumer complaint filing process. We overcame the target variable ambiguity by renaming certain categories from the information we inferred in the data exploration steps. However, we did not have enough data to correctly classify complaint narratives of type “Crypt/Virtual Currency.”  
 Our future work would be focused on improving classification accuracy using novel methods and additional features. During data exploration, we identified that the feature “Submitted-via”, the mode of submission of complaints by a consumer, had some influence on the target variable. Hence, the accuracy can be improved by incorporating more such features. 
 
-
-# References
