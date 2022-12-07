@@ -11,6 +11,9 @@
 ## Link to the project proposal document:
 [Project Proposal](./cmpe257_proposal.pdf)
 
+## Link to the project report document:
+[Project Report](./paper/paper.pdf)
+
 ## Link for the dataset used:
 
 Dataset Link: https://www.consumerfinance.gov/data-research/consumer-complaints/
