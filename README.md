@@ -21,7 +21,7 @@ Dataset Link: https://www.consumerfinance.gov/data-research/consumer-complaints/
 ## Navigating through the project structure
 All of the code (notebooks and python files) are present under the [code/app/](./code/app) directory. For each method/model, a separate folder has been created.
 The report can be found in the [paper](./paper) directory. The report should be named "paper.pdf". You can use the link above to access it. 
-**Please note that our team did not use the paper scripts provided, instead we decided to make our own pdf using google doc.**
+### **Please note that our team did not use the paper scripts provided, instead we decided to make our own pdf using google doc.**
 
 ## Abstract:
 
