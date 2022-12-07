@@ -2,7 +2,6 @@ all: paper.md paper.bib
 	pandoc -r markdown+smart+simple_tables+table_captions+yaml_metadata_block \
 		--pdf-engine=pdflatex \
 		--variable classoption=twocolumn \
-		--citeproc \
 		--filter scripts/table-filter.py \
 		--filter pandoc-tablenos \
 		--filter pandoc-fignos \
