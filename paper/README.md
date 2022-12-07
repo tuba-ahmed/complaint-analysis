@@ -1,3 +1,3 @@
-## Link to the Project Report PDF:
-[Project Proposal](./paper.pdf)
+## Open the file below to access the Report:
+[Project Report](./paper.pdf)
 
