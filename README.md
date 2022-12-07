@@ -18,6 +18,11 @@
 
 Dataset Link: https://www.consumerfinance.gov/data-research/consumer-complaints/
 
+## Navigating through the project structure
+All of the code (notebooks and python files) are present under the [code/app/](./code/app) directory. For each method/model, a separate folder has been created.
+The report can be found in the [paper](./paper) directory. The report should be named (paper.pdf)[./code/paper.pdf]. 
+**Please note that our team did not use the paper scripts provided, instead we decided to make our own pdf using google doc.**
+
 ## Abstract:
 
 Customer satisfaction plays a crucial role in any business. In fact, it is shown that a company that has a high level of customer satisfaction yields a higher retention rate of customers, as well as having a positive brand reputation, and overall having a greater lifetime value. Customer satisfaction also plays an important role in driving customer loyalty and boosts their acquisition, as well as reflecting on the business team’s performance. With the digitization of most businesses, managing customer satisfaction in the digital space has become exceedingly important. While some industries have a rigorous focus on customer outcomes through government regularization, other businesses will benefit from introducing this aspect of process improvement into their workflow.
